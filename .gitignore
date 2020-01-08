@@ -1,0 +1,18 @@
+##
+##
+
+# MacOS
+.DS_Store
+
+# Build results
+bin/
+obj/
+
+# .NET Core
+**/Properties/launchSettings.json
+
+# VS for Mac
+.vs/
+
+# VS Code
+.vscode/
