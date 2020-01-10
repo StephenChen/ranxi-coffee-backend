@@ -31,6 +31,7 @@ namespace LibraCoffee.Core
             services.AddDbContextSetup(Configuration);
             services.AddAutoMapperSetup();
             services.AddCorsSetup();
+            services.AddSwaggerSetup();
 
             services.AddControllers();
         }
