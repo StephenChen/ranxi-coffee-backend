@@ -2,14 +2,16 @@ using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using LibraCoffee.Entities.Models;
+using LibraCoffee.Entities.Seed;
 
 namespace LibraCoffee.Services
 {
     public class CoffeeRepository : ICoffeeRepository
     {
-        private readonly MyDbContext _context;
+        private readonly LibraCoffeeDbContext _context;
 
-        public CoffeeRepository(MyDbContext context)
+        public CoffeeRepository(LibraCoffeeDbContext context)
         {
             _context = context;
         }

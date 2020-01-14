@@ -6,9 +6,12 @@
 
   <ItemGroup>
     <ProjectReference Include="../Entities/LibraCoffee.Entities.csproj" />
+    <ProjectReference Include="../Services/LibraCoffee.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
     <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />

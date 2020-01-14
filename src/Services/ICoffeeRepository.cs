@@ -1,4 +1,4 @@
-
+using LibraCoffee.Entities.Models;
 
 namespace LibraCoffee.Services
 {

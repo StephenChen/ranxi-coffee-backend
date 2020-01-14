@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using LibraCoffee.Entities;
+using LibraCoffee.Entities.Models;
 
 namespace LibraCoffee.Services
 {
