@@ -44,11 +44,25 @@ namespace LibraCoffee.Core
                 app.UseDeveloperExceptionPage();
             }
 
+            // 启用中间件服务生成 Swagger 作为 JSON 终结点
+            app.UseSwagger();
+            // 启用中间件服务对 swagger-ui，指定 Swagger JSON 终结点
+            app.UseSwaggerUI(action =>
+            {
+                action.SwaggerEndpoint("/swagger/v1/swagger.json", "Coffee API v1");
+                // 路径配置，设置为空，表直接在根域名（localhost:5000）访问该文件.
+                action.RoutePrefix = "";
+            });
+
+            //context.EnsureSeedDataForContext();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

@@ -14,6 +14,14 @@ namespace LibraCoffee.Core.Extensions
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Coffee API", Version = "v1" });
+
+                c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+                {
+                    Description = "JWT 授权",
+                    Name = "Authorization", // jwt 默认的参数名称
+                    In = ParameterLocation.Header, // jwt 默认存放 Authorization 信息的位置
+                    Type = SecuritySchemeType.ApiKey
+                });
             });
         }
     }
