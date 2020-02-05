@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraCoffee.Core", "Core\LibraCoffee.Core.csproj", "{BA2C9087-8315-4FDF-ACF9-324ECD6E611D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServices", "{8EDB5ECE-5667-41B2-8DD5-0DBA61A85FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraCoffee.MicroServices.Repositories", "MicroServices\Repositories\LibraCoffee.MicroServices.Repositories.csproj", "{BC9A578D-3CDF-4463-871F-CD0560F2413A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,20 @@ Global
 		{BA2C9087-8315-4FDF-ACF9-324ECD6E611D}.Release|x64.Build.0 = Release|Any CPU
 		{BA2C9087-8315-4FDF-ACF9-324ECD6E611D}.Release|x86.ActiveCfg = Release|Any CPU
 		{BA2C9087-8315-4FDF-ACF9-324ECD6E611D}.Release|x86.Build.0 = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|x64.Build.0 = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC9A578D-3CDF-4463-871F-CD0560F2413A} = {8EDB5ECE-5667-41B2-8DD5-0DBA61A85FE9}
 	EndGlobalSection
 EndGlobal
