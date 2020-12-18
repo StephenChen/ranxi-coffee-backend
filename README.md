@@ -1,7 +1,3 @@
-# LibraCoffee
-coffee shop by .net core and vue
+# libra-coffee-backend
+coffee shop by go.
 
-- [ ] ABP
-- [ ] IdentityServer4
-- [ ] Drapper
-- [ ] AOP
