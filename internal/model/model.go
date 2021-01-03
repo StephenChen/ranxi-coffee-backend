@@ -10,3 +10,8 @@ type Article struct {
 	Content string
 	Author  string
 }
+
+type Coffee struct {
+	ID   int32
+	Name string
+}
