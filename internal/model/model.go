@@ -12,6 +12,7 @@ type Article struct {
 }
 
 type Coffee struct {
-	ID   int32
-	Name string
+	ID    int32
+	Name  string
+	Price int32
 }
