@@ -16,3 +16,7 @@ type Coffee struct {
 	Name  string
 	Price int32
 }
+
+type Order struct {
+	ID int32
+}
