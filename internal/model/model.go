@@ -1,5 +1,7 @@
 package model
 
+import "github.com/go-kratos/kratos/pkg/time"
+
 // Kratos hello kratos.
 type Kratos struct {
 	Hello string
@@ -18,5 +20,6 @@ type Coffee struct {
 }
 
 type Order struct {
-	ID int32
+	ID         int32
+	CreateTime time.Duration
 }
