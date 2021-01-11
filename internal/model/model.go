@@ -22,4 +22,5 @@ type Coffee struct {
 type Order struct {
 	ID         int32
 	CreateTime time.Duration
+	UpdateTime time.Duration
 }
