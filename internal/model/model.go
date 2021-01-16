@@ -19,6 +19,7 @@ type Coffee struct {
 
 type Order struct {
 	ID         int32
+	CName      string
 	Coffees    []Coffee
 	CreateTime time.Duration
 	UpdateTime time.Duration
